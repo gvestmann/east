@@ -1,13 +1,16 @@
-import React from 'react',
-import {View, Text} from 'react-native';
+import React from 'react';
+import {View, Text, ImageBackground} from 'react-native';
+import styles from './styles';
 
-const Mountain = {props} => {
+const Mountain = (props) => {
     return (
-    <View>
-        <Text>
-            Test this shit
-        </Text>
-    </View>
+        <View style={styles.MountainContainer}>
+            <ImageBackground source={require('../../assets/images/dyrfjoll2.jpg')} style={styles.img}></ImageBackground>
+            <View style={styles.title}>
+                <Text style={styles.name}>DYRFJÖLL</Text>
+                <Text style={styles.location}>Borgarfjörður Eystri</Text>
+            </View>
+      </View>
     );
 };
 
