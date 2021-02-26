@@ -1,3 +1,4 @@
+// Came with "expo init"
 module.exports = function(api) {
   api.cache(true);
   return {
