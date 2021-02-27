@@ -1,26 +1,28 @@
 import {StyleSheet, ImageBackground} from 'react-native'
+
 const styles = StyleSheet.create({
   // The inner container
-  MountainContainer: {
+  mountainContainer: {
     width: '100%',
     height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
   },
 
   // Title CSS
-  title: {
+  name: {
     marginTop: '40%',
     width: '100%',
     alignItems: 'center',
-  },
-
-  // H2 style
-  name: {
     fontSize: 50,
+    fontFamily: 'OpenSans_300Light',
   },
 
   // H3 style
   location: {
-    fontSize: 24,
+    fontSize: 40,
+    paddingBottom: 20
   },
 
   img: {
