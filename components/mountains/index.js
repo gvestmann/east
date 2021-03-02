@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text, ImageBackground} from 'react-native';
+import {View, Text, ImageBackground, Linking} from 'react-native';
 import styles from './styles';
 import Click from '../click';
 
 const Mountain = (props) => {
 
-    const {name, location, image} = props.mount;
+    const {name, location, image, url} = props.mount;
 
     return (
         <View style={styles.mountainContainer}>
@@ -18,9 +18,8 @@ const Mountain = (props) => {
             <Click 
                 content={"Nope"} 
                 onPress={() => {
-                    console.warn("I was pressed")
-                }
-                }
+                   Linking.openURL(url);
+                }}
                     />
         </View>
     </View>

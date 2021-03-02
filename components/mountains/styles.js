@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 
   // Title wrapper
   title: {
-    marginTop: '30%',
+    marginTop: 150,
     width: '100%',
     alignItems: 'center',
   },
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 
   // H3 style
   location: {
-    fontSize: 40,
+    fontSize: 30,
     textAlign: 'center',
   },
 

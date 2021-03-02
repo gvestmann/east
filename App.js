@@ -5,6 +5,7 @@ import { StyleSheet, View } from 'react-native';
 // End of standard stuff
 import MountainList from './components/MountainList';
 import { useFonts, OpenSans_300Light, } from '@expo-google-fonts/open-sans';
+import Header from './components/Header'
 
 
 export default function App() {
@@ -14,6 +15,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+
+      <Header />
 
       <MountainList/>
 
