@@ -1,9 +1,9 @@
 // From Expo init, the ImageBackground compontent from React Native I added myself
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 // End of standard stuff
-import Mountains from './components/mountains';
+import MountainList from './components/MountainList';
 import { useFonts, OpenSans_300Light, } from '@expo-google-fonts/open-sans';
 
 
@@ -12,14 +12,13 @@ export default function App() {
     OpenSans_300Light,
   });
 
-  if (!fontsLoaded) {
-    return <Text>TEXT</Text>
-  }
-
   return (
     <View style={styles.container}>
-    <Mountains name={'Dyrfjöll'} location={'Borgarfjörður Eystri'} image={require('./assets/images/dyrfjoll.jpg')} />
+
+      <MountainList/>
+
       <StatusBar style="light" />
+
     </View>
   );
 }

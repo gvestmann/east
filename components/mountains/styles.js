@@ -1,10 +1,10 @@
-import {StyleSheet, ImageBackground} from 'react-native'
+import {StyleSheet, Dimensions} from 'react-native'
 
 const styles = StyleSheet.create({
   // The inner container
   mountainContainer: {
     width: '100%',
-    height: '100%'
+    height: Dimensions.get('window').height,
   },
 
   // Title wrapper
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   // H3 style
   location: {
     fontSize: 40,
+    textAlign: 'center',
   },
 
   img: {

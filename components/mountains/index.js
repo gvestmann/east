@@ -5,7 +5,7 @@ import Click from '../click';
 
 const Mountain = (props) => {
 
-    const {name, location, image} = props;
+    const {name, location, image} = props.mount;
 
     return (
         <View style={styles.mountainContainer}>
