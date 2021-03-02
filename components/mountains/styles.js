@@ -4,17 +4,18 @@ const styles = StyleSheet.create({
   // The inner container
   mountainContainer: {
     width: '100%',
-    height: '100%',
-    justifyContent: 'center',
+    height: '100%'
+  },
+
+  // Title wrapper
+  title: {
+    marginTop: '30%',
+    width: '100%',
     alignItems: 'center',
-    textAlign: 'center',
   },
 
   // Title CSS
   name: {
-    marginTop: '40%',
-    width: '100%',
-    alignItems: 'center',
     fontSize: 50,
     fontFamily: 'OpenSans_300Light',
   },
@@ -22,7 +23,6 @@ const styles = StyleSheet.create({
   // H3 style
   location: {
     fontSize: 40,
-    paddingBottom: 20
   },
 
   img: {
@@ -30,7 +30,15 @@ const styles = StyleSheet.create({
     height: '100%',
     resizeMode: 'cover',
     position: 'absolute',
+  },
+
+  clickWrapper: {
+    position: 'absolute',
+    bottom: 50,
+    width: '100%',
   }
 });
+
+
 
 export default styles;

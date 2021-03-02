@@ -10,16 +10,17 @@ const Mountain = (props) => {
             <View style={styles.title}>
                 <Text style={styles.name}>DYRFJÖLL</Text>
                 <Text style={styles.location}>Borgarfjörður Eystri</Text>
-
-        <Click 
-        content={"Nope"} 
-        onPress={() => {
-            console.warn("I was pressed")
-        }
-        }
-            />
             </View>
-      </View>
+        <View style={styles.clickWrapper}>
+            <Click 
+                content={"Nope"} 
+                onPress={() => {
+                    console.warn("I was pressed")
+                }
+                }
+                    />
+        </View>
+    </View>
     );
 };
 

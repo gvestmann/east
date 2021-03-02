@@ -4,12 +4,15 @@ import {View, Text, Pressable} from 'react-native';
 // CSS styles from Click components
 import styles from '../click/styles';
 
-// This arrow function is exported below and features stuff for the button
+// This arrow function is exported below and features stuff - or props - for the button 
 const Button = (props) => {
 
+    // Props for the button's text
     const content = props.content;
+    // Props for the button's onclick event
     const onPress = props.onPress;
 
+    // Her the button is returned as desired
     return (
     <View style={styles.container}>
         <Pressable
