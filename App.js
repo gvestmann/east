@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-    <Mountains />
+    <Mountains name={'Dyrfjöll'} location={'Borgarfjörður Eystri'} image={require('./assets/images/dyrfjoll.jpg')} />
       <StatusBar style="light" />
     </View>
   );
