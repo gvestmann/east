@@ -1,3 +1,4 @@
+// Basic stuff, styles + ImageBackground for moutain images, Linking to open up URL in browser. Also the click components is imported.
 import React from 'react';
 import {View, Text, ImageBackground, Linking} from 'react-native';
 import styles from './styles';
@@ -16,7 +17,7 @@ const Mountain = (props) => {
             </View>
         <View style={styles.clickWrapper}>
             <Click 
-                content={"Nope"} 
+                content={"VISIT ME"} 
                 onPress={() => {
                    Linking.openURL(url);
                 }}

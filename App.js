@@ -1,17 +1,12 @@
-// From Expo init, the ImageBackground compontent from React Native I added myself
+// Statusbar is imported from Expo init. Also StyleSheet and View from React Native. MountainList and Header are two modules used to build App.js. Below the two main components are rendered: MountainList and Header. Also the statusbar style is assigned. 
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-// End of standard stuff
 import MountainList from './components/MountainList';
-import { useFonts, OpenSans_300Light, } from '@expo-google-fonts/open-sans';
 import Header from './components/Header'
 
 
 export default function App() {
-  let [fontsLoaded] = useFonts({
-    OpenSans_300Light,
-  });
 
   return (
     <View style={styles.container}>
@@ -33,6 +28,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily: 'OpenSans_300Light'
   },
 });

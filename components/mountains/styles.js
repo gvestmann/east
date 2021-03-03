@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
   // Title CSS
   name: {
     fontSize: 50,
-    fontFamily: 'OpenSans_300Light',
   },
 
   // H3 style
