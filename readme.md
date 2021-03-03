@@ -1,7 +1,7 @@
 # EAST - React native app dedicated to the beauty of the east's mountains
 This is a simple image app that links you to info on mountains in the Eastfjords. The styling is quite simple and it contains four different mountains - but the app is built in a way you could add all the thousands of them.  
 
-###### Expo on iOS
+### Expo on iOS
 For view the app on iOS, you'l install it locally.
 
 Download the git repo to you computer.
@@ -9,7 +9,7 @@ Download the git repo to you computer.
 To use Expo, you'll need:
 * Node.js LTS
 * Git
-* [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall) **(if you're using macOS)**
+* [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall)
 
 To install Expo locally, if you haven't done it yet: 
 `npm install --global expo-cli`
@@ -33,5 +33,5 @@ From the projects' terminal:
 -p, --password [your-password]
 ```
 
-###### Expo on Android
+### Expo on Android
 Using Expo on Android is quite simpler. All you need is to install the [Expo GO app](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US) from Google Play and scan my [barcode](https://expo.io/@gvestmann/projects/east). You will need to signup/login though.
